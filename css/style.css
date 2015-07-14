@@ -1,0 +1,97 @@
+html,
+body {
+    font-family: Courier, "Microsoft YaHei", sans-serif;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: #eee;
+    background: url(../images/background.jpg);
+    background-position: cover;
+}
+h2 {
+    text-align: center;
+}
+li {
+    line-height: 50px;
+    width: 100px;
+    margin: 5px;
+    list-style: none;
+    cursor: pointer;
+    -webkit-transition: background .3s ease-in-out; 
+       -moz-transition: background .3s ease-in-out; 
+         -o-transition: background .3s ease-in-out;
+            transition: background .3s ease-in-out;
+    text-align: center;
+    color: #fff;
+    border: 2px solid #80c342;
+    border-radius: 10px;
+    background: #80c342;
+}
+li:hover {
+    background-color: rgba(0,0,0,.1);
+}
+.direction {
+    width: 4em;
+    line-height: 1.5em;
+    border-radius: 30%;
+}
+#game {
+    text-align: center;
+}
+#score {
+    font-size: 1.4em;
+    line-height: 1.6em;
+    color: #fff;
+}
+#control {
+    position: relative;
+    display: none;
+}
+#down {
+    position: relative;
+    top: 1em;
+}
+#switch {
+    position: relative;
+    top: 1em;
+    left: 1.5em;
+    width: 4em;
+    height:2.5em;
+}
+#menu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 300px;
+    margin-top: -150px;
+    margin-left: -100px;
+}
+.page {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+#page {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+#highScore {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -100px;
+}
+.back {
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+}

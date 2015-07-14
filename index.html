@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>tetris</title>
+    <meta name="viewport" content="width=device-width,height=device-height"/>
+	<link rel="stylesheet"href="./css/style.css">
+</head>
+<body>
+<div id="page">	
+	<div class="page page1">
+		<div id="menu" >
+			<h2>俄罗斯方块</h2>
+			<ul>
+				<li id="startGame">开始游戏</li>
+				<li id="degree">简单模式</li>
+				<li id="seeScore">高分榜</li>
+				<li id="exit">退出游戏</li>
+			</ul>
+		</div>
+	</div>
+	<div class="page page2">
+		<div class="back">&lt;&lt;返回</div>
+		<div id="game" >
+			<div id="score">score:</div>
+			<canvas>浏览器不支持canvas</canvas>
+			<div id="control">
+				<button id="left" class="direction">向左</button>
+				<button id="down" class="direction">向下</button>
+				<button id="right" class="direction">向右</button>
+				<button id="switch" class="direction">切换</button>	
+			</div>
+		</div>
+	</div>
+	<div class="page page3">
+		<div class="back">&lt;&lt;返回</div>
+		<div id="highScore">
+			<h2>高分榜</h2>
+			<ol></ol>
+		</div>	
+	</div>
+</div>
+<script src="./js/main.js"></script>
+</body>
+</html>
